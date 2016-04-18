@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:clickable="false"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:id="@+id/BTlist"
+        android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 	    
+   	 	android:padding="0dp"
+   	 	android:cacheColorHint="#dddeeeff"
+   	 	android:isScrollContainer="true" >
+    </ListView>
+
+</RelativeLayout>
